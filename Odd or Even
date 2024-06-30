@@ -1,0 +1,17 @@
+public class Main {
+    public static void OddorEven(int n) {
+        int bitmask = 1;
+        if ((n & bitmask) == 0) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd Number");
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        OddorEven(3);
+        OddorEven(11);
+        OddorEven(14);
+
+    }
+}
